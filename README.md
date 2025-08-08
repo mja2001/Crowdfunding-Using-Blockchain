@@ -1,8 +1,6 @@
 # Crowdfunding-Using-Blockchain
 # Crowdfunding Using Blockchain
 
-![Flow Diagram](/assets/Fundchain.png)
-
 ## 📖 Introduction
 
 Crowdfunding platforms are essential for raising funds, but traditional systems often lack transparency and involve high fees. Our **Crowdfunding Using Blockchain** project leverages the decentralized, immutable, and transparent nature of blockchain to provide a secure and cost-efficient crowdfunding experience.
