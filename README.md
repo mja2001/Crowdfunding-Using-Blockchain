@@ -1,9 +1,10 @@
 DeFund Innovate
 A decentralized crowdfunding dApp built with Next.js, Solidity, Thirdweb, and Hardhat. Enables transparent campaign creation, crypto funding, and decentralized governance on Ethereum, Arbitrum, and Polygon blockchains.
+
 📖 Introduction
 DeFund Innovate transforms crowdfunding with blockchain's transparency, security, and efficiency. It supports campaign creation, multi-currency funding, and DAO-based governance, eliminating centralized control. Deployed on Arbitrum, Ethereum, and Polygon, it offers low fees, advanced analytics, and seamless UX for global adoption.
-✨ Features
 
+✨ Features
 Transparent Campaign Creation: Immutable campaign details stored on-chain.
 Multi-Currency Funding: Supports ETH, USDC, DAI, and custom ERC-20 tokens.
 Decentralized Governance: DAO voting for campaign approvals, disputes, and platform upgrades.
@@ -123,7 +124,6 @@ AI-driven fraud detection for campaigns.
 Community-driven feature voting via DAO.
 Support for additional layer-2 chains (Optimism, Base).
 
-📜 License
-MIT License
 Footer
 © 2025 DeFund Innovate
+@ALAYHAM M ALMAJALI
