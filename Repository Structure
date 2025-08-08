@@ -1,0 +1,61 @@
+.
+├── contracts/
+│   ├── contracts/
+│   │   └── CrowdFunding.sol
+│   ├── hardhat.config.js
+│   ├── package.json
+│   └── .gitignore
+│
+├── client/
+│   ├── public/
+│   ├── src/
+│   │   ├── api/
+│   │   │   ├── rarity_theForest.js
+│   │   │   ├── rarity_openmic_perform.js
+│   │   │   └── vaults.js
+│   │   ├── assets/
+│   │   ├── components/
+│   │   │   ├── countBox.jsx
+│   │   │   ├── customButton.jsx
+│   │   │   ├── displayCampaigns.jsx
+│   │   │   ├── formField.jsx
+│   │   │   ├── loader.jsx
+│   │   │   ├── navbar.jsx
+│   │   │   └── sidebar.jsx
+│   │   ├── contexts/
+│   │   │   └── index.jsx
+│   │   ├── pages/
+│   │   │   ├── admin.jsx
+│   │   │   ├── campaignDetails.jsx
+│   │   │   ├── createCampaign.jsx
+│   │   │   ├── home.jsx
+│   │   │   └── profile.jsx
+│   │   ├── utils/
+│   │   │   └── index.js
+│   │   ├── App.jsx
+│   │   ├── index.css
+│   │   └── main.jsx
+│   ├── .env
+│   ├── .gitignore
+│   ├── index.html
+│   ├── package.json
+│   ├── postcss.config.js
+│   └── tailwind.config.js
+│
+├── server/
+│   ├── config/
+│   │   └── db.js
+│   ├── controllers/
+│   │   ├── auth.js
+│   │   └── product.js
+│   ├── middleware/
+│   │   └── authMiddleware.js
+│   ├── models/
+│   │   ├── Product.js
+│   │   └── User.js
+│   ├── routers/
+│   │   ├── authRoutes.js
+│   │   └── productRoutes.js
+│   └── app.js
+│
+└── README.md
