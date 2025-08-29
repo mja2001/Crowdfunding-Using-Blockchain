@@ -127,3 +127,28 @@ Support for additional layer-2 chains (Optimism, Base).
 Footer
 © 2025 DeFund Innovate
 @ALAYHAM M ALMAJALI
+
+🔐 SolCipher Encryption Module
+SolCipher adds convenient AES-256-GCM encryption utilities with PBKDF2 key derivation. It can be used directly in code or via a simple command-line interface for protecting sensitive data associated with the dApp.
+
+CLI examples:
+
+```
+# generate a random 32-byte key (base64 encoded)
+node solcipher/cli.js genkey
+
+# encrypt a message using a passphrase
+node solcipher/cli.js encrypt "my-pass" "Secret text"
+
+# decrypt the payload
+node solcipher/cli.js decrypt "my-pass" "<payload>"
+```
+
+Programmatic usage:
+
+```
+const { encrypt, decrypt, generateKey } = require('./solcipher');
+const key = generateKey();
+const payload = encrypt('hello', key);
+const text = decrypt(payload, key);
+```

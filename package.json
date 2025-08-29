@@ -6,7 +6,8 @@
     "start": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "deploy": "yarn build && npx thirdweb@latest upload dist"
+    "deploy": "yarn build && npx thirdweb@latest upload dist",
+    "test": "node tests/solcipher.test.js"
   },
   "dependencies": {
     "@thirdweb-dev/react": "^4",
