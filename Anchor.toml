@@ -1,0 +1,11 @@
+[workspace]
+members = [
+    "programs/solcipher"
+]
+
+[provider]
+cluster = "devnet"
+wallet = "~/.config/solana/id.json"
+
+[programs.localnet]
+solcipher = "SoLCipheR111111111111111111111111111111111"
