@@ -1,0 +1,20 @@
+{
+  "version": "0.1.0",
+  "name": "solcipher",
+  "instructions": [
+    {
+      "name": "shareFile",
+      "accounts": [
+        { "name": "sender", "isMut": true, "isSigner": true },
+        { "name": "file", "isMut": true, "isSigner": false },
+        { "name": "systemProgram", "isMut": false, "isSigner": false }
+      ],
+      "args": [
+        { "name": "recipient", "type": "publicKey" },
+        { "name": "encryptedKey", "type": { "vec": "u8" } },
+        { "name": "cid", "type": "string" },
+        { "name": "iv", "type": { "array": ["u8", 12] } }
+      ]
+    }
+  ]
+}
